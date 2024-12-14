@@ -6,6 +6,11 @@ const userPasswordId = document.querySelector("#user_password");
 const userDataId1 = document.querySelector("#user_data1");
 const userDataId2 = document.querySelector("#user_data2");
 const userDataId3 = document.querySelector("#user_data3");
+const DOMPurify = require('dompurify');
+const cleanHTML = DOMPurify.sanitize(userInputId);
+
+document.cookie = "sessionID=abc123;key=value; Secure; Secure; SameSite=Strict";
+
 
 // Preventing Default Behavior of Form
 userInputId.addEventListener("submit", (e) => {
