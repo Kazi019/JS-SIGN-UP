@@ -97,9 +97,9 @@ input:focus{
 }
 .lm{
     border: #ff9f43 3px solid;
-    padding: 0.625 0.3rem;
+    padding: 0.625rem 0.3rem;
     background: none;
-    border-radius: 0.375rem;
+    border-radius: 0.6rem;
     cursor: pointer;
     transition: 0.5s;
 }
