@@ -1,8 +1,2 @@
-You must complete sign in using the following rules
-
-_____________________________________________________
-
-
-1.username must be min 4 char
-2.email must be 7 char (with @ and .<something>)
-3.password must be min 9 char
+# JS-SIGN-UP
+JS-SIGN-UP A modern and responsive sign-up form built with HTML, CSS, and JavaScript. This project demonstrates how to create an aesthetically pleasing, user-friendly, and functional sign-up interface that can be easily integrated into web applications.
